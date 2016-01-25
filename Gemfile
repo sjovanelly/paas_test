@@ -15,9 +15,6 @@ gem 'bootstrap-sass'
 # Use ActiveModel has_secure_password
 gem 'bcrypt'
 
-# Use Unicorn as the app server
-# gem 'unicorn'
-
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -37,5 +34,6 @@ end
 group :production do
   gem 'pg'
   gem 'rails_12factor'
+  gem 'puma'
 end
 
