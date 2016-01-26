@@ -11,9 +11,10 @@ gem 'turbolinks'
 gem 'jbuilder'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
-
-# Use ActiveModel has_secure_password
 gem 'bcrypt'
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
