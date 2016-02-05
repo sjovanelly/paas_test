@@ -8,10 +8,14 @@ class StaticPagesController < ApplicationController
 
   def help
   end
-  
+
   def about
   end
-  
+
   def contact
+  end
+
+  def health
+    render :text => "ok"
   end
 end
