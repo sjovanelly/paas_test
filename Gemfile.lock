@@ -346,7 +346,7 @@ DEPENDENCIES
   minitest-reporters (= 1.0.5)
   pg
   puma
-  rails (= 4.2.5)
+  rails (~> 4.2.5)
   rails_12factor
   sass-rails (~> 5.0.3)
   sdoc (~> 0.4.0)
