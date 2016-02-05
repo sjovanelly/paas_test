@@ -20,3 +20,7 @@
 
 # Ignore uploaded test images.
 /public/uploads
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
