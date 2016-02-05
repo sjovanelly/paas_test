@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-ruby '2.3.0'
+ruby '2.2.3'
 
-gem 'rails', '4.2.5'
+gem 'rails', '~> 4.2.5.1'
 gem 'sass-rails', '~> 5.0.3'
 gem 'uglifier'
 gem 'coffee-rails', '~> 4.1.0'
@@ -36,8 +36,7 @@ group :test do
 end
 
 group :production do
-  gem 'pg'
+  gem 'mysql2'
   gem 'rails_12factor'
   gem 'puma'
 end
-
